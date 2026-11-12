@@ -372,7 +372,7 @@ The Streamlit application provides the following modules.
 
 An interactive Streamlit application provides access to image restoration and analysis features.
 
-**Live Demo:** Coming Soon
+**Live Demo:** https://jahnavinekkalapu-unified-artifact-aware-deep-learnin-app-af4egi.streamlit.app/
 
 **Demo Link:** To be added.
 
