@@ -1,0 +1,38 @@
+{
+    "project": "ReliefLink",
+    "model": "V5 Damage-Aware Artifact-Aware UNet",
+    "model_version": "V5",
+    "parameters": 8096426,
+    "input": {
+        "channels": 3,
+        "format": "RGB",
+        "patch_size": 256,
+        "range": [
+            0,
+            1
+        ]
+    },
+    "sentinel2_rgb": {
+        "red": "B04",
+        "green": "B03",
+        "blue": "B02",
+        "scaling": "DN / 10000"
+    },
+    "artifacts": [
+        "gaussian",
+        "speckle",
+        "blur",
+        "haze",
+        "cloud",
+        "stripe",
+        "missing"
+    ],
+    "performance": {
+        "test_samples": 200,
+        "PSNR_dB": 34.380165,
+        "SSIM": 0.921893,
+        "MAE": 0.013035,
+        "RMSE": 0.020414,
+        "SAM": 0.026048
+    }
+}

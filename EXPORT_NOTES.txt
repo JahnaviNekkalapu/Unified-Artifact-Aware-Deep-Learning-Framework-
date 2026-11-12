@@ -1,0 +1,7 @@
+ReliefLink V5 backend package
+
+The original checkpoint is included in model/.
+Check that inference.py and the matching model architecture
+source files are present before running the backend.
+If those files are absent, copy them from your VS Code project.
+Do not install dependencies blindly; review requirements.txt first.
